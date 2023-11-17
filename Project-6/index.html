@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test</title>
+</head>
+<body>
+    <div class="container" id="root">
+        <h1>Change The Background Color By Clicking The Following Button</h1>
+            <div id="input-group">
+                <p>Hex</p>
+                <div class="input-icon">#</div>
+                <input type="text" value="000000" id="output">
+                <button id="copy-btn" class="style-copy-btn" title="copy to clipboard">Copy</button>
+            </div>
+
+            <div class="input-group">
+                <p>RGB</p>
+                <input type="text" disabled value="rgb(255, 255, 255)" id="output2">
+                <button id="copy-btn2" class="style-copy-btn">Copy</button>
+            </div>
+
+
+        <div id="btn-group">
+            <button id="back-btn">back</button>
+            
+            <button id="next-btn">Next</button>
+        </div>
+        <button id="change-btn">Change Color</button>
+    </div>
+
+    <script src="dom.js"></script>
+</body>
+</html>
